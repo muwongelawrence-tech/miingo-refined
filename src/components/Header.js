@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="sticky top-0 z-50 bg-white   flex justify-between p-2 lg:pr-10 lg:px-5 shadow-md space-x-2 md:space-x-4">
       {/* left */}
-      <div className="flex items-center justify-center rounded-full bg-regal-orange w-12  h-12">
+      <div className=" hidden md:inline-flex items-center justify-center rounded-full bg-regal-orange w-12  h-12">
         <p className="text-white text-base text-center">Logo</p>
       </div>
 
