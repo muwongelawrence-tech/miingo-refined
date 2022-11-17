@@ -1,5 +1,4 @@
 import React from 'react';
-import Addfriends from './Addfriends';
 import InputBox from './InputBox';
 import Posts from './Posts';
 
