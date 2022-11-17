@@ -2,6 +2,8 @@ import React from "react";
 import { FiRotateCw } from "react-icons/fi";
 import { HiSun } from "react-icons/hi";
 import { HiOutlineCake } from "react-icons/hi";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+
 
 const BirthdayCard = () => {
  
@@ -62,11 +64,15 @@ const BirthdayCard = () => {
           </h2>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-4  ">
+      <div className="flex justify-center items-center mt-4 bg-miingo-light-pink p-2 rounded-md ">
         <input
-          className="bg-miingo-light-pink p-2 rounded-md outline-none  "
+          className=" bg-miingo-light-pink outline-none text-white placeholder-white "
           placeholder="Wish Birthday To Your Friend"
         />
+
+        < HiOutlineArrowNarrowRight className="h-6 w-6 text-white hover:scale-110" />
+         
+         
       </div>
     </div>
   );
