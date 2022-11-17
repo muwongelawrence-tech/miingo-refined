@@ -41,7 +41,7 @@ function Header() {
 
       {/*  Right */}
       <div className="flex justify-around items-center sm:space-x-2 md:space-x-6 w-56 md:w-80">
-        <p className="text-gray-700 "> Find Friends </p>
+        <p className="text-gray-700 hidden md:inline-flex "> Find Friends </p>
 
         <div className=" flex items-center relative">
           <span className="absolute top-0 right-0  h-4 w-4 bg-red-800 text-center rounded-full text-white text-xs font-bold">
