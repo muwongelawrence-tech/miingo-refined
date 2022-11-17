@@ -9,7 +9,6 @@ function Feed() {
             <div className = " space-y-7 px-2 ">
                  <InputBox/>
                  <Posts />
-                 {/* <Addfriends /> */}
             </div>
         </div>
     );

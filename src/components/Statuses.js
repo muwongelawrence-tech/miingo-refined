@@ -94,7 +94,7 @@ function Statuses() {
   };
 
   return (
-    <div className=" flex  items-center justify-around space-x-2  w-screen bg-miingo-gray px-3 py-1 ">
+    <div className=" flex  items-center justify-around space-x-2  w-screen bg-miingo-gray px-3 py-1 mx-2 ">
       <div className=" flex items-center justify-center  w-20 md:w-56 bg-miingo-gray">
         <div className="h-16 w-16 md:h-20 md:w-20 rounded-full bg-regal-orange shadow-lg  flex items-center justify-center  hover:shadow-xl active:scale-90 transition duration-300">
           <svg
