@@ -1,5 +1,6 @@
 import React from "react";
 import Boards from "./Boards";
+import BottomNav from "./BottomNav";
 import Feed from "./Feed";
 import Header from "./Header";
 import Statuses from "./Statuses";
@@ -27,6 +28,9 @@ function Home() {
 
           <Boards />
         </main>
+
+        <BottomNav />
+
       </div>
     </div>
   );
