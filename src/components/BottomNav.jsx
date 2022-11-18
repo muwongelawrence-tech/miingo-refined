@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchIcon, HomeIcon } from "@heroicons/react/outline";
+import { HomeIcon } from "@heroicons/react/outline";
 import { HiOutlineUserGroup } from "react-icons/hi";
 
 
